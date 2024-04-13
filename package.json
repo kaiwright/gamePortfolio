@@ -9,10 +9,10 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "terser": "^5.30.3",
     "vite": "^5.2.0"
   },
   "dependencies": {
+    "dayjs": "^1.11.10",
     "kaboom": "^3000.1.17"
   }
 }
