@@ -150,6 +150,7 @@ k.scene("main", async () => {
 
         player.play("idle-side");
     });
+
 });
 
 k.go("main");

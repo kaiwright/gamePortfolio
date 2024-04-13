@@ -8,7 +8,7 @@ export function displayDialogue(text, onDisplayEnd) {
     let index = 0;
     let currentText = "";
     const intervalRef = setInterval(() => {
-        if(index < text.length) {
+        if (index < text.length) {
             currentText += text[index];
             dialogue.innerHTML = currentText;
             index++;
@@ -38,7 +38,9 @@ export function setCamScale(k) {
     if (resizeFactor < 1) {
         k.camScale(k.vec2(1));
         return;
+    } else {
+        k.camScale(k.vec2(1.5));
     }
 
-    k.camScale(k.vec2(1.5));
+
 }
